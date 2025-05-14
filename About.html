@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Life Uganda Website</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="Bridge Life Uganda.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Bridge Life Uganda.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- ---------about us content---------- -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's biggest University</h1>
+                <p>And so our aim since we are the world's largest school this will also mean that the best standards of learning are definitelu based inside our own state. So what we recommed all students with in the world is that try this school i really promise out that you wil never regret and so for the sake of building this kind of website is to gather all the students across countries within the world.</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg">
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+        <!-- --------footer-------- -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>So the University's headquater are based in the USA and so currently no <br>University is proved to have any single competition with the biggest and highest institution all over the world.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <i class="fa fa-heart-0"></i><br>Web Wizards</p> 
+        </section>
+        
+    
+    <!-- -------Java script for toggle menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function ShowMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
